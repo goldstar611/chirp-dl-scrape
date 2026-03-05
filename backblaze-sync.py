@@ -37,3 +37,5 @@ with b2sdk.v2.SyncReport(sys.stdout, no_progress) as reporter:
             now_millis=int(round(time.time() * 1000)),
             reporter=reporter,
         )
+
+print("Backblaze syncd")
